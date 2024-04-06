@@ -195,8 +195,8 @@
                                     <action selector="actionFavorite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KD9-67-dBe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNb-po-r7p">
-                                <rect key="frame" x="319" y="361" width="50.666666666666686" height="34.333333333333314"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNb-po-r7p">
+                                <rect key="frame" x="334" y="367" width="20" height="21"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="heart.fill" catalog="system" title=""/>
@@ -212,7 +212,7 @@
                             <constraint firstItem="g0N-X6-u8V" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="611" id="1yH-Bv-L1d"/>
                             <constraint firstItem="5jI-Bm-pyc" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="128" id="29a-M7-3Ry"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gDM-JX-bBu" secondAttribute="trailing" symbolic="YES" id="34a-xE-6v5"/>
-                            <constraint firstItem="SNb-po-r7p" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="361" id="36x-as-JPa"/>
+                            <constraint firstItem="SNb-po-r7p" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="367" id="36x-as-JPa"/>
                             <constraint firstItem="0G9-8f-fHz" firstAttribute="leading" secondItem="2Vo-se-NpM" secondAttribute="leading" id="ADM-hS-hcH"/>
                             <constraint firstItem="g0N-X6-u8V" firstAttribute="leading" relation="lessThanOrEqual" secondItem="BVS-gQ-NK4" secondAttribute="trailing" constant="12" id="ANB-74-eTF"/>
                             <constraint firstItem="gDM-JX-bBu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="BB1-y0-vAW"/>
@@ -228,7 +228,7 @@
                             <constraint firstItem="zh5-OD-HmB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="PXe-QH-NJ1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dRj-yD-UVS" secondAttribute="trailing" constant="30" id="VIg-YA-K3h"/>
                             <constraint firstItem="dRj-yD-UVS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Vhv-QD-8cL"/>
-                            <constraint firstItem="SNb-po-r7p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="319" id="WKX-eA-dxY"/>
+                            <constraint firstItem="SNb-po-r7p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="334" id="WKX-eA-dxY"/>
                             <constraint firstItem="0G9-8f-fHz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="408" id="Wqp-Zg-Z0l"/>
                             <constraint firstAttribute="trailingMargin" relation="lessThanOrEqual" secondItem="p9e-aQ-Loi" secondAttribute="trailing" constant="290" id="aLF-wt-JB0"/>
                             <constraint firstItem="JNZ-DR-eqn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="361" id="dHT-ys-c4e"/>

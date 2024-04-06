@@ -70,9 +70,14 @@ class ViewController: UIViewController {
     @IBAction func changeSizeAndDescriptionOnLittleCoffe(_ sender: UIButton) {
         sizeLittleButton.tintColor = UIColor.price
         sizeLittleButton.backgroundColor = UIColor.sizeButtonBackground
+        sizeLittleButton.layer.borderColor = UIColor.price.cgColor
+        sizeLittleButton.layer.borderWidth = 3
         
+        sizeLargeButton.layer.borderColor = UIColor.buttonBorder.cgColor
         sizeLargeButton.tintColor = UIColor.coffeName
         sizeLargeButton.backgroundColor = UIColor.white
+        
+        sizeMediumButton.layer.borderColor = UIColor.buttonBorder.cgColor
         sizeMediumButton.tintColor = UIColor.coffeName
         sizeMediumButton.backgroundColor = UIColor.white
         priceInIntLabel.text = String(coffeCappucino.dictionaryForSizeAndPrice["პაწა"] ?? 0)
@@ -88,11 +93,16 @@ class ViewController: UIViewController {
     @IBAction func changeSizeAndDescriptionOnMediumCoffe(_ sender: UIButton) {
         sizeMediumButton.tintColor = UIColor.price
         sizeMediumButton.backgroundColor = UIColor.sizeButtonBackground
+        sizeMediumButton.layer.borderWidth = 3
+        sizeMediumButton.layer.borderColor = UIColor.price.cgColor
         
         sizeLittleButton.tintColor = UIColor.coffeName
         sizeLittleButton.backgroundColor = UIColor.white
+        sizeLittleButton.layer.borderColor = UIColor.buttonBorder.cgColor
+        
         sizeLargeButton.tintColor = UIColor.coffeName
         sizeLargeButton.backgroundColor = UIColor.white
+        sizeLargeButton.layer.borderColor = UIColor.buttonBorder.cgColor
         priceInIntLabel.text = String(coffeCappucino.dictionaryForSizeAndPrice["საშუალო"] ?? 0)
         cappuccinoMl = arrayOfCappuccinoMl[1]
         espressoInCappuccino = arrayOfHowMuchEspressoIsInCappuccino[1]
@@ -106,11 +116,17 @@ class ViewController: UIViewController {
     @IBAction func changeSizeAndDescriptionOnLargeCoffe(_ sender: UIButton) {
         sizeLargeButton.tintColor = UIColor.price
         sizeLargeButton.backgroundColor = UIColor.sizeButtonBackground
+        sizeLargeButton.layer.borderWidth = 3
+        sizeLargeButton.layer.borderColor = UIColor.price.cgColor
         
         sizeLittleButton.tintColor = UIColor.coffeName
         sizeLittleButton.backgroundColor = UIColor.white
+        sizeLittleButton.layer.borderColor = UIColor.buttonBorder.cgColor
+        
         sizeMediumButton.tintColor = UIColor.coffeName
         sizeMediumButton.backgroundColor = UIColor.white
+        sizeMediumButton.layer.borderColor = UIColor.buttonBorder.cgColor
+        
         priceInIntLabel.text = String(coffeCappucino.dictionaryForSizeAndPrice["დიდი"] ?? 0)
         
         cappuccinoMl = arrayOfCappuccinoMl[2]
@@ -169,8 +185,8 @@ class ViewController: UIViewController {
         sizeOfCupLabel.text = "ზომა"
     
         sizeLittleButton.setTitle("პაწა", for: .normal)
-        sizeLittleButton.layer.borderWidth = 1
-        sizeLittleButton.layer.borderColor = UIColor.buttonBorder.cgColor
+        sizeLittleButton.layer.borderWidth = 3
+        sizeLittleButton.layer.borderColor = UIColor.price.cgColor
         sizeLittleButton.layer.cornerRadius = 12
         sizeLittleButton.clipsToBounds = true
         sizeLittleButton.tintColor = UIColor.price
@@ -178,14 +194,14 @@ class ViewController: UIViewController {
         
         
         sizeMediumButton.setTitle("საშუალო", for: .normal)
-        sizeMediumButton.layer.borderWidth = 1
+        sizeMediumButton.layer.borderWidth = 3
         sizeMediumButton.layer.borderColor = UIColor.buttonBorder.cgColor
         sizeMediumButton.layer.cornerRadius = 12
         sizeMediumButton.clipsToBounds = true
         sizeMediumButton.tintColor = UIColor.coffeName
         
         sizeLargeButton.setTitle("დიდი", for: .normal)
-        sizeLargeButton.layer.borderWidth = 1
+        sizeLargeButton.layer.borderWidth = 3
         sizeLargeButton.layer.borderColor = UIColor.buttonBorder.cgColor
         sizeLargeButton.layer.cornerRadius = 12
         sizeLargeButton.clipsToBounds = true
